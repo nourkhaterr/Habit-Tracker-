@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <!-- TextView for displaying the study time -->
+    <TextView
+        android:id="@+id/studyTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study Time: 00:00"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center" />
+
+    <!-- Button to start the study session -->
+    <Button
+        android:id="@+id/startStudyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Studying"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center" />
+
+    <!-- Button to play forest sound -->
+    <Button
+        android:id="@+id/musicOption1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forest Sound"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <!-- Button to play rain sound -->
+    <Button
+        android:id="@+id/musicOption2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rain Sound"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
+
